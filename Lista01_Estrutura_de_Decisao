@@ -1,0 +1,152 @@
+Atividade 01 – Técnicas de Programação
+Aluno: Antonio Acrisio Caxias Sousa Mátricula : 519391
+1° - public class q1 {
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+int A = 20;
+int B = 0;
+if(A > 10) {
+System.out.println("A > 10");
+}
+if((A+B)==20) {
+System.out.println("A + B == 20");
+}
+if((A<10)&&(A+B)!=20) {
+System.out.println("Numeros não validos");
+}
+}
+}
+2° - public class q2 {
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+int A = 18;
+int B = 0;
+if(A > 10) {
+System.out.println("A > 10");
+}
+if((A+B)==20) {
+System.out.println("A + B == 20");
+}
+if((A+B)!=20) {
+System.out.println("Numeros não validos");
+}
+}
+}3°- public class q3 {
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+int A = 9;
+int B = 11;
+if(A > 10 || (A+B)==20) {
+System.out.println("Numero Valido");
+}else {
+System.out.println("Numero invalido");
+}
+}
+}
+4°- public class q4 {
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+int A = 9;
+int B = 11;
+if(A > 10) {
+System.out.println("A > 10");
+}else {
+System.out.println("A <= 10");
+}
+if((A+B)== 20) {
+System.out.println("A + B == 20");
+}else {
+System.out.println(" A + B != 20");
+}
+}
+}5°- public class q5 {
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+int A = 12;
+int B = 8;
+if(A > 10) {
+if((A+B)== 20) {
+System.out.println("Numeros Validos");
+}
+}else {
+System.out.println("Numeros invalidos");
+}
+}
+}
+6°- public class q6 {
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+int A = 6;
+int B = 8;
+if(A > 10) {
+System.out.println("A > 10");
+if((A+B)== 20) {
+System.out.println("A + B == 20");
+}
+}else {
+System.out.println("Numero não valido");
+}
+}
+}
+7°- public class q7 {
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+int A = 12;
+int B = 8;
+if(A > 10 && (A+B)== 20) {
+System.out.println("A + B == 20");
+}else{
+System.out.println("Numero não valido");}
+}
+}
+8°- public class q8 {
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+int A = 13;
+int B = 8;
+if(A > 10 ) {
+}else{
+System.out.println("Numero menor que 10");
+}
+if(A + B == 20 ) {
+}else{
+System.out.println("Numero diferente de 20");
+}
+}
+}
+9°- public class q9 {
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+int A = 13;
+int B = 8;
+int casoum = 0;
+if(A > 10 ) {
+}else {
+if((A+B)==20) {
+System.out.println("A+B==20");
+}
+} A
+= casoum;
+if(A < 10 && (A+B) == 20) {
+}else {
+System.out.println("Numero não valido");}
+}
+}
+10°- public class q10 {
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+int A = 7;
+int B = 13;
+if(A > 10 ) {
+System.out.println("A > 10");
+}
+if(A + B == 20) {
+System.out.println("A + B = 20");
+}
+if((A+B) != 20 && A < 10) {
+System.out.println("Números não validos");
+}
+System.out.println("Sejam bem vindos a disciplina de Técnicas de
+Programação");
+}
+}
