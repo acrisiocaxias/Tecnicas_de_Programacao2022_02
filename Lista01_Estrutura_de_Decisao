@@ -1,6 +1,6 @@
 Atividade 01 – Técnicas de Programação
 Aluno: Antonio Acrisio Caxias Sousa Mátricula : 519391
-1° - public class q1 {
+//1° - public class q1 {
 public static void main(String[] args) {
 // TODO Auto-generated method stub
 int A = 20;
