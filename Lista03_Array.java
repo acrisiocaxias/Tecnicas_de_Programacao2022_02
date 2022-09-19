@@ -2,11 +2,15 @@ package lista03;
 
 import java.util.Scanner;
 
+//Aluno: Antonio Acrisio Caxias Sousa   ##Matricula: 519391
+
+//Atividade em desenvolvimento, quest√µes est√£o sendo upadas a medida que as finalizo.
+
 public class Lista03_Array {
 
-//FunÁıes uteis para o desenvolvimento das questıes.
+//Fun√ß√µes uteis para o desenvolvimento das quest√µes.
 
-//preenche o vetor com valores aleatÛrios
+//preenche o vetor com valores aleat√≥rios
 	public static void completaVetor(int vet[], int inicio, int fim) {
 
 		for (int i = 0; i < vet.length; i++) {
@@ -37,7 +41,7 @@ public class Lista03_Array {
 
 	public static int interacaoUsuario() {
 		Scanner ler = new Scanner(System.in);
-		System.out.print("Informe um n˙mero: ");
+		System.out.print("Informe um n√∫mero: ");
 		return ler.nextInt();
 	}
 
@@ -60,7 +64,7 @@ public class Lista03_Array {
 		return -100;
 	}
 
-	// SeparaÁ„o, complemento quest„o 3
+	// Separa√ß√£o, complemento quest√£o 3
 	public static void separaVet(int vet[], int vet01[], int vet02[]) {
 
 		int indiceNegativo = 0;
@@ -77,7 +81,7 @@ public class Lista03_Array {
 		}
 	}
 
-	// Inicio das respostas questıes
+	// Inicio das respostas quest√µes
 
 	public static void questao1(int vet[]) {
 		Lista03_Array.completaVetor(vet, 0, 20);
@@ -111,9 +115,9 @@ public class Lista03_Array {
 		System.arraycopy(vet01, 0, vetor3, 0, vet02.length);
 		System.arraycopy(vet02, 0, vetor3, vet01.length, vet02.length);
 
-		respostaQuestao("SeparaÁ„o - Q3 ", "Elementos Positivo = " + imprimeVetor(vet02));
-		respostaQuestao("SeparaÁ„o - Q3 ", "Elementos Negativo = " + imprimeVetor(vet01));
-		respostaQuestao("SeparaÁ„o - Q3 ", "Elementos = " + imprimeVetor(vetor3));
+		respostaQuestao("Separa√ß√£o - Q3 ", "Elementos Positivo = " + imprimeVetor(vet02));
+		respostaQuestao("Separa√ß√£o - Q3 ", "Elementos Negativo = " + imprimeVetor(vet01));
+		respostaQuestao("Separa√ß√£o - Q3 ", "Elementos = " + imprimeVetor(vetor3));
 
 	}
 
@@ -234,8 +238,8 @@ public static void questao19(int vet01[]) {
 		int vet02[] = new int[10];
 		int vetAux[] = new int[20];
 
-		System.out.println("#################-Bem vindo a Lista03 de FunÁıes e Arrays 2022.2-#################");
-		System.out.println("Selecione a quest„o 1 - 20 :");
+		System.out.println("#################-Bem vindo a Lista03 de Fun√ß√µes e Arrays 2022.2-#################");
+		System.out.println("Selecione a quest√£o 1 - 20 :");
 		Scanner ler = new Scanner(System.in);
 
 		int questao = ler.nextInt();
